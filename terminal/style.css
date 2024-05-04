@@ -1,16 +1,35 @@
 
 body {
-    background-color: rgb(84, 129, 228);
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("imagens/001.jpg");
+    background-color: black;
+    background-position: left left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+#container {
+    position: relative;
+}
+
+#conteudo {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 500px;
+    max-width: 800px;
+    min-height: 500px;
+}
+
 .borda {
     margin-top: 5vh;
     padding: 20px;
     color: white;
     background-color: rgba(37, 54, 131, 0.897);
-    height: 500px;
-    width: 600px;
     border-radius: 15px;
 
 }
@@ -25,7 +44,7 @@ body {
     color: black;
     background-color: rgba(255, 255, 255, 0.973);
     padding: 1px;
-    padding-left: 10px;
+    padding-left: 20px;
     margin: 5px;
     margin-left: 10px;
     font-size: 1.2em;
@@ -35,9 +54,31 @@ body {
     color: black;
     background-color: rgba(255, 255, 255, 0.973);
     padding: 1px;
-    padding-left: 10px;
+    padding-left: 20px;
     margin: 5px;
     margin-left: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.h2a_hist1 {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.973);
+    padding: 1px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin: 5px;
+    margin-left: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.h2a_hist12 {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.973);
+    padding: 1px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin: 5px;
+    margin-left: 05px;
     font-size: 1.2em;
     border-radius: 5px;
 }
@@ -45,4 +86,36 @@ body {
     font-size: 1.4em;
     color: white;
     margin-left: 20px;
+    padding-top: 20px;
+
+}
+#divtabela { 
+    overflow: auto;
+    
+
+}
+table {
+    height: 225px;
+    width: 400px;
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+.table12 {
+    height: 320px;
+    width: 400px;
+    border-collapse: collapse;
+    margin-left: 10px;
+
+}
+caption {
+    text-align: left;
+    font-size: 1.4em;
+    padding: 20px;
+    font-weight: bolder;
+}
+th {
+    background-color: rgba(128, 128, 128, 0.377);
+}
+tr, td, th {
+    border: 1px solid black;
 }
