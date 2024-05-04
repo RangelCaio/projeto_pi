@@ -1,16 +1,35 @@
 
 body {
-    background-color: rgb(84, 129, 228);
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("imagens/001.jpg");
+    background-color: black;
+    background-position: left left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+#container {
+    position: relative;
+}
+
+#conteudo {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 500px;
+    max-width: 800px;
+    min-height: 500px;
+}
+
 .borda {
     margin-top: 5vh;
     padding: 20px;
     color: white;
     background-color: rgba(37, 54, 131, 0.897);
-    height: 500px;
-    width: 600px;
     border-radius: 15px;
 
 }
@@ -67,6 +86,13 @@ body {
     font-size: 1.4em;
     color: white;
     margin-left: 20px;
+    padding-top: 20px;
+
+}
+#divtabela { 
+    overflow: auto;
+    
+
 }
 table {
     height: 225px;
