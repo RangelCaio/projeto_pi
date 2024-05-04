@@ -89,6 +89,12 @@ body {
     padding-top: 20px;
 
 }
+div#voltar10 {
+padding-top: 20px;
+}
+div#voltar11 {
+    padding-top: 110px;
+    }
 #divtabela { 
     overflow: auto;
     
