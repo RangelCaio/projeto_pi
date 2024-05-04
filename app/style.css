@@ -1,0 +1,48 @@
+
+body {
+    background-color: rgb(84, 129, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("imagens/001.jpg");
+}
+.borda {
+    margin-top: 5vh;
+    padding: 20px;
+    color: white;
+    background-color: rgba(37, 54, 131, 0.897);
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+
+}
+.h1 {
+    padding-bottom: 20px;
+}
+
+.h2 {
+
+}
+.h2a {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.973);
+    padding: 1px;
+    padding-left: 10px;
+    margin: 5px;
+    margin-left: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.h2a_11 {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.973);
+    padding: 1px;
+    padding-left: 10px;
+    margin: 5px;
+    margin-left: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.voltar {
+    font-size: 1.4em;
+    color: white;
+    margin-left: 20px;
+}
