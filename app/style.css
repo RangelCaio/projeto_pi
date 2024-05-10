@@ -37,12 +37,21 @@ body {
     padding-bottom: 20px;
 }
 
-.h2 {
-
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    transition: background-color 0.2s ease;
 }
+
+a:active {
+    background-color: rgb(204, 204, 204);
+    transform: scale(0.98);
+}
+
 .h2a {
     color: black;
-    background-color: rgba(255, 255, 255, 0.973);
+    background-color: rgb(219, 219, 219);
     padding: 1px;
     padding-left: 20px;
     margin: 5px;
@@ -52,7 +61,7 @@ body {
 }
 .h2a_11 {
     color: black;
-    background-color: rgba(255, 255, 255, 0.973);
+    background-color: lightgray;
     padding: 1px;
     padding-left: 20px;
     margin: 5px;
@@ -83,16 +92,43 @@ body {
     border-radius: 5px;
 }
 .voltar {
-    font-size: 1.4em;
-    color: white;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
     margin-left: 20px;
     padding-top: 20px;
+    font-weight: bolder;
 
+}
+.voltar10 {
+
+    padding-top: 50px;
+
+
+}
+.voltar140 {
+    font-size: 1.5em;
+    padding-top: 65px;
+    font-weight: bolder;
+
+
+}
+div#voltar10 {
+padding-top: 65px;
+}
+div#voltar11 {
+    padding-top: 140px;
+    }
+div#voltar111 {
+        padding-top: 230px;
+        }
+div#voltar130 {
+        padding-top: 230px;
+}
+div#voltar131 {
+    padding-top: 320px;
 }
 #divtabela { 
     overflow: auto;
-    
-
 }
 table {
     height: 225px;
